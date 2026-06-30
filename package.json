@@ -1,5 +1,5 @@
 {
-  "name": "hvn-anti-ai-ui",
+  "name": "anti-ai-ui",
   "version": "0.1.0",
   "description": "Human-first React UI patterns that avoid generic AI-generated frontend aesthetics.",
   "type": "module",
@@ -7,7 +7,7 @@
   "author": "Henry Van Ness",
   "repository": {
     "type": "git",
-    "url": "https://github.com/henryvn27/hvn-anti-ai-ui.git"
+    "url": "https://github.com/henryvn27/anti-ai-ui.git"
   },
   "sideEffects": false,
   "main": "./dist/index.js",
