@@ -89,6 +89,10 @@ Primitives:
 - `PanelTilt`
 - `StackOffset`
 
+## Proof
+
+See [PROOF.md](PROOF.md) and the [Tesla sunshade interactive deck](examples/tesla-sunshade-site/index.html) for a concrete UI example that avoids generic AI-looking defaults.
+
 ## Contributing
 
 Contributions should preserve the library's core point of view: design from content and hierarchy, not from a default grid. New patterns need docs that explain what generic output would do instead and why the component chooses a different structure.
