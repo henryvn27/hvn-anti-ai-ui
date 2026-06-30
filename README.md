@@ -1,8 +1,8 @@
-# HVN Anti-AI UI
+# Anti-AI UI
 
-HVN Anti-AI UI is a React component library for builders who want interfaces that feel intentionally designed rather than assembled from generic AI frontend defaults.
+Anti-AI UI is a React component library for builders who want interfaces that feel intentionally designed rather than assembled from generic AI frontend defaults.
 
-It complements `hvn-framework`: HVN runs authenticity preflight; this library provides concrete UI patterns and writing guidance that apply that calibration in React.
+It owns the anti-generic UI guidance that used to be scattered through ORCA, plus concrete React patterns that apply that standard.
 
 ## What It Includes
 
@@ -15,13 +15,13 @@ It complements `hvn-framework`: HVN runs authenticity preflight; this library pr
 ## Install
 
 ```sh
-npm install hvn-anti-ai-ui @emotion/react @emotion/styled
+npm install anti-ai-ui @emotion/react @emotion/styled
 ```
 
 ## Use
 
 ```tsx
-import { AntiHero, PanelTilt, TextBlock } from 'hvn-anti-ai-ui';
+import { AntiHero, PanelTilt, TextBlock } from 'anti-ai-ui';
 
 export function Page() {
   return (

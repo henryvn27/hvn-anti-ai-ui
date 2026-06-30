@@ -23,7 +23,7 @@ This example is a static single-file site.
 
 To deploy as its own Vercel project from GitHub:
 
-1. Import `henryvn27/hvn-anti-ai-ui` into Vercel.
+1. Import `henryvn27/anti-ai-ui` into Vercel.
 2. Set the project root directory to `examples/tesla-sunshade-site`.
 3. Use no framework preset or a static HTML preset.
 4. No build command is required.

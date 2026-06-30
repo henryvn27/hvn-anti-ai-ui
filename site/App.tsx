@@ -146,7 +146,7 @@ function Start() {
     <>
       <AntiHero
         title="UI patterns with a point of view"
-        proof="Built as a companion to hvn-framework: calibrate first, design from content, and avoid interchangeable frontend output."
+        proof="Design from content, hierarchy, and product evidence before reaching for generic frontend defaults."
         visual={
           <PanelTilt tone="blue">
             <TextBlock title="Not a prettier card kit" mood="dense">
@@ -159,8 +159,8 @@ function Start() {
       </AntiHero>
       <Page>
         <h2>Install</h2>
-        <Code>{`npm install hvn-anti-ai-ui @emotion/react @emotion/styled`}</Code>
-        <Code>{`import { AntiHero, ButtonWarp } from 'hvn-anti-ai-ui';`}</Code>
+        <Code>{`npm install anti-ai-ui @emotion/react @emotion/styled`}</Code>
+        <Code>{`import { AntiHero, ButtonWarp } from 'anti-ai-ui';`}</Code>
       </Page>
     </>
   );
@@ -191,7 +191,7 @@ function Philosophy() {
 }
 
 function Landing() {
-  const code = `import { AntiHero, OffsetFeatureStrip, ZigZagNarrative, PanelTilt, TextBlock } from 'hvn-anti-ai-ui';
+  const code = `import { AntiHero, OffsetFeatureStrip, ZigZagNarrative, PanelTilt, TextBlock } from 'anti-ai-ui';
 
 export function LandingPage() {
   return (
@@ -238,7 +238,7 @@ export function LandingPage() {
 }
 
 function Dashboard() {
-  const code = `import { AsymGridShell, LopsidedMetricCard, SkewedTimeline } from 'hvn-anti-ai-ui';
+  const code = `import { AsymGridShell, LopsidedMetricCard, SkewedTimeline } from 'anti-ai-ui';
 
 export function OpsDashboard() {
   return (
@@ -268,7 +268,7 @@ export function OpsDashboard() {
 }
 
 function Primitives() {
-  const code = `import { ButtonWarp, PanelTilt, StackOffset, TextBlock } from 'hvn-anti-ai-ui';
+  const code = `import { ButtonWarp, PanelTilt, StackOffset, TextBlock } from 'anti-ai-ui';
 
 export function PrimitiveSet() {
   return (
@@ -319,6 +319,11 @@ function Guides() {
             Did you remove vague words like powerful, seamless, and next-generation unless you can prove them with specifics?
           </TextBlock>
         </PanelTilt>
+        <PanelTilt tone="moss">
+          <TextBlock title="ORCA standard">
+            Loading, empty, error, release note, and handoff copy should feel as product-specific as the visible UI.
+          </TextBlock>
+        </PanelTilt>
       </GuideGrid>
     </Page>
   );
@@ -338,7 +343,7 @@ export function App() {
   return (
     <Shell>
       <Nav aria-label="Documentation">
-        <h1>HVN Anti-AI UI</h1>
+        <h1>Anti-AI UI</h1>
         {routes.map((item) => (
           <button key={item.id} data-active={route === item.id} onClick={() => setRoute(item.id)}>
             {item.label}
